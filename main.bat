@@ -14,7 +14,7 @@ git for-each-ref --format="delete %(refname)" refs/original/ | git update-ref --
 git reflog expire --expire=now --all
 git gc --prune=now
 
-echo 完成操作。
+echo finished
 goto end
 
 :error
